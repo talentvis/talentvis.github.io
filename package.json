@@ -2,8 +2,10 @@
   "name": "react_uni",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://talentvis.github.io/",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
     "start": "vite",
     "dev": "vite",
